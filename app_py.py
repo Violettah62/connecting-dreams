@@ -23,7 +23,11 @@ def home():
     <!DOCTYPE html>
     <html>
     <head>
+    <meta name="description" content="Empowering rural students in Kenya through digital literacy, mentorship, and technology.">
+<meta name="keywords" content="Connecting Dreams Initiative, Kenya, digital literacy, student empowerment">
+<meta name="author" content="Connecting Dreams Initiative">
       <title>Connecting Dreams Initiative</title>
+       <meta name="google-site-verification" content="LBIuqR4BpR4-ddCXsmny00Hrrmg9jWSqd4gL_Bpbl_A" />
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
         header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; text-align: center; }

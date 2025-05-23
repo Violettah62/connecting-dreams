@@ -88,6 +88,8 @@ def about():
 
 Rooted in the rural communities of Western Kenya, our mission is to transform education by providing holistic support to high school students through academic mentorship, emotional guidance, community engagement, and digital empowerment.
 
+
+
 What We Do
 We work hand-in-hand with students, parents, teachers, and local leaders to bridge the educational gap in underserved areas. Our approach includes:
 
@@ -97,7 +99,9 @@ Community-Driven Research: Gathering local insights to create affordable, practi
 
 Digital Literacy & Technology Integration: Equipping students with essential tech skills, then empowering them to teach others—building a sustainable cycle of peer learning.
 
-Our Vision
+
+
+\033[1mOur Vision\033[0m" 
 We’re building more than just schools—we’re building self-sustaining, tech-enabled learning ecosystems. Through partnerships with leading organizations like Moringa School, we’re introducing students to the worlds of coding, data science, and robotics.
 
 Our future plans include:
@@ -113,7 +117,7 @@ Mobile literacy units to train parents in digital skills and support at-home lea
 Why It Matters
 The digital divide remains one of the biggest barriers to education equity. In a world where opportunity is increasingly linked to technology, rural students can’t be left behind. That’s why we’re committed to providing tools, training, and mentorship to help them succeed—not just in school, but in life.
 
-We also work closely with the Ministry of Education and local authorities to influence national curriculum reforms and advocate for inclusive, tech-forward education policies.
+We also aim to work closely with the Ministry of Education and local authorities to influence national curriculum reforms and advocate for inclusive, tech-forward education policies.
 
 Join Us
 Whether you're a donor, educator, tech partner, or passionate volunteer—there’s a place for you in this movement.

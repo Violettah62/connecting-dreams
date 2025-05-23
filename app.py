@@ -101,8 +101,8 @@ Digital Literacy & Technology Integration: Equipping students with essential tec
 
 
 
-\033[1mOur Vision\033[0m" 
-We’re building more than just schools—we’re building self-sustaining, tech-enabled learning ecosystems. Through partnerships with leading organizations like Moringa School, we’re introducing students to the worlds of coding, data science, and robotics.
+Our Vision
+We’re building more than just schools—we’re building self-sustaining, tech-enabled learning ecosystems. We’re introducing students to the worlds of coding, data science, and robotics in the near future.
 
 Our future plans include:
 

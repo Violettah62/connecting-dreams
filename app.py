@@ -163,12 +163,12 @@ def projects():
       </nav>
       <section>
         <h2>All Projects</h2>
-        <p>Project 1: Tree Planting and Environmental Education
-Timeline: November 26 – January 15, 2024
- Location: Holy Family Musembe Secondary School
- Status: Completed
+        <p><b>Project 1: Tree Planting and Environmental Education</b><br>
+<b>Timeline:</b> November 26 – January 15, 2024 <br>
+ <b>Location:</b> Holy Family Musembe Secondary School <br>
+ <b>Status:</b> Completed <br>
 This project engaged over twenty students enrolled in the program in planting trees at Holy Family Musembe Secondary School. The goal was to instill environmental stewardship while offering practical, hands-on learning. Over 500 trees were planted during the December  school break through January, incorporating nature-based education into the students’ learning experience.
-Outcomes:
+<br><b>Outcomes:</b>
 <ul>
 <li> Educated students on tree care and environmental conservation </li>
 
@@ -177,64 +177,60 @@ Outcomes:
 <li> Enhanced the school’s environment and promoted community pride </li>
 </ul>
 
-Future Engagement:
+<b>Future Engagement:</b>
  Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.
-<img src="desktop/pictures/pic 1.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="desktop/pictures/pic 2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
-<img src="desktop/pictures/pic 3.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="desktop/pictures/pic 4.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="This PC/Desktop/pictures/pic 1.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="This PC/Desktop/pictures/pic 2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
+<img src="This PC/Desktop/pictures/pic 3.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="This PC/Desktop/pictures/pic 4.jpg" alt="tree planting"style="width: 45%; height: auto;">
 
  <br>
-Project 2: Competency-Based Curriculum (CBC) Research and Advocacy
-Timeline: December 2024 – March 2025
- Location: Musembe Village and Lugari Sub-County Schools
- Status: Completed
+<b>Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>
+<b>Timeline:</b> December 2024 – March 2025<br>
+ <b>Location:</b> Musembe Village and Lugari Sub-County Schools<br>
+ <b>Status:</b> Completed<br>
 This study investigated the challenges faced by low-income families, teachers, and students under Kenya’s CBC. Using a comparative framework with education systems in Finland and the U.S., the research examined the real-world impact of CBC on rural communities and developed practical, community-informed policy recommendations.
-Outcomes:
-Highlighted socio-economic, infrastructural, and administrative barriers to CBC implementation
+<br><b>Outcomes:</b>
+<ul>
+<li>Highlighted socio-economic, infrastructural, and administrative barriers to CBC implementation</li>
 
+<li>Documented adaptive strategies by families and teachers</li>
 
-Documented adaptive strategies by families and teachers
+<li>Provided actionable recommendations on equity, funding, teacher training, and parental engagement</li>
 
+<li>Presented findings to local stakeholders and educational policymakers</li>
+</ul>
 
-Provided actionable recommendations on equity, funding, teacher training, and parental engagement
-
-
-Presented findings to local stakeholders and educational policymakers
-
-
-Future Engagement:
+<b>Future Engagement:</b>
  The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.
 <br>
-Project 3: Bridging the Digital Divide
-Timeline: May 2025 – Ongoing
- Location: Musembe Secondary, Angayu High, and Mbajo Secondary Schools
- Status: In Progress
+<b>Project 3: Bridging the Digital Divide</b><br>
+<b>Timeline:</b> May 2025 – Ongoing<br>
+ <b>Location:</b> Musembe Secondary, Angayu High, and Mbajo Secondary Schools<br>
+ <b>Status:</b> In Progress <br>
 This ongoing project aims to address the critical lack of digital resources in rural schools. Through the deployment of 20 desktop computers and 3 Starlink satellite internet units, students and teachers are gaining access to digital tools for education. The program includes structured digital literacy training for students, teachers, and parents. It also incorporates peer-led learning, and socio-emotional mentorship supported by partner organizations.
-Outcomes (To Date):
-Digital literacy curriculum developed and deployed
+<b>Outcomes (To Date):</b>
+<ul>
+<li>Digital literacy curriculum developed and deployed</li>
 
+<li>Over 40 peer mentors trained across three schools</li>
 
-Over 40 peer mentors trained across three schools
+<li>Starlink satellite internet installed, improving online access</li>
 
+<li>Collaborations with KenSAP  and Shamiri Institute.</li>
+</ul>
 
-Starlink satellite internet installed, improving online access
+<b>Future Engagement:</b>
+<ul>
+<li>Introduction of coding and innovation clubs</li>
 
+<li>Integration of gamified learning and AI-based educational tools</li>
 
-Collaborations with KenSAP  and Shamiri Institute.
+<li>Launch of mobile digital literacy units for parents</li>
 
-
-Future Engagement:
-Introduction of coding and innovation clubs
-
-
-Integration of gamified learning and AI-based educational tools
-
-
-Launch of mobile digital literacy units for parents
-
-
-Long-term policy collaboration with the Ministry of Education for national scaling.</p>
+<li>Long-term policy collaboration with the Ministry of Education for national scaling.</li>
+</ul>
+</p>
       </section>
       <footer>
         <p>&copy; 2025 Connecting Dreams Initiative</p>

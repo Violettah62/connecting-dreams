@@ -44,7 +44,7 @@ def home():
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
            brighter futures together.<br>
-           <img src="pic6.jpg" alt="engaging session"style="width: 50%; height: auto;">
+           <img src="{url_for('static', filename='pic6.jpg')}" alt="engaging session" style="width: 50%;">
            </p>
       </section>
       <footer>
@@ -181,11 +181,10 @@ This project engaged over twenty students enrolled in the program in planting tr
 
 <b>Future Engagement:</b>
  Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.
-<img src="pic1.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="pic2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
-<img src="pic3.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="pic4.jpg" alt="tree planting"style="width: 45%; height: auto;">
-
+<img src="{url_for('static', filename='pic1.jpg')}" alt="tree planting" style="width: 45%;">
+<img src="{url_for('static', filename='pic2.jpg')}" alt="tree planting" style="width: 45%;"><br>
+<img src="{url_for('static', filename='pic3.jpg')}" alt="tree planting" style="width: 45%;">
+<img src="{url_for('static', filename='pic4.jpg')}" alt="tree planting" style="width: 45%;">
  <br> <br> <br>
 <b>Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>
 <b>Timeline:</b> December 2024 – March 2025<br>

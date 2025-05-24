@@ -43,7 +43,9 @@ def home():
         <h2>Welcome</h2>
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
-           brighter futures together.</p>
+           brighter futures together.
+           <img src="pictures/pic 6.jpg" alt="tree planting"style="width: 50%; height: auto;">
+           </p>
       </section>
       <footer>
         <p>&copy; 2025 Connecting Dreams Initiative</p>

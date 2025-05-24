@@ -43,8 +43,8 @@ def home():
         <h2>Welcome</h2>
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
-           brighter futures together.
-           <img src="pictures/pic 6.jpg" alt="tree planting"style="width: 50%; height: auto;">
+           brighter futures together.<br>
+           <img src="pic6.jpg" alt="engaging session"style="width: 50%; height: auto;">
            </p>
       </section>
       <footer>
@@ -181,10 +181,10 @@ This project engaged over twenty students enrolled in the program in planting tr
 
 <b>Future Engagement:</b>
  Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.
-<img src="pictures/pic 1.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="pictures/pic 2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
-<img src="pictures/pic 3.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="pictures/pic 4.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="pic1.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="pic2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
+<img src="pic3.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="pic4.jpg" alt="tree planting"style="width: 45%; height: auto;">
 
  <br> <br> <br>
 <b>Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>

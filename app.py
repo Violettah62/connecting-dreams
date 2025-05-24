@@ -179,12 +179,12 @@ This project engaged over twenty students enrolled in the program in planting tr
 
 <b>Future Engagement:</b>
  Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.
-<img src="This PC/Desktop/pictures/pic 1.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="This PC/Desktop/pictures/pic 2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
-<img src="This PC/Desktop/pictures/pic 3.jpg" alt="tree planting"style="width: 45%; height: auto;">
-<img src="This PC/Desktop/pictures/pic 4.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="pictures/pic 1.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="pictures/pic 2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
+<img src="pictures/pic 3.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="pictures/pic 4.jpg" alt="tree planting"style="width: 45%; height: auto;">
 
- <br>
+ <br> <br> <br>
 <b>Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>
 <b>Timeline:</b> December 2024 – March 2025<br>
  <b>Location:</b> Musembe Village and Lugari Sub-County Schools<br>
@@ -203,13 +203,13 @@ This study investigated the challenges faced by low-income families, teachers, a
 
 <b>Future Engagement:</b>
  The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.
-<br>
+<br> <br> <br>
 <b>Project 3: Bridging the Digital Divide</b><br>
 <b>Timeline:</b> May 2025 – Ongoing<br>
  <b>Location:</b> Musembe Secondary, Angayu High, and Mbajo Secondary Schools<br>
  <b>Status:</b> In Progress <br>
 This ongoing project aims to address the critical lack of digital resources in rural schools. Through the deployment of 20 desktop computers and 3 Starlink satellite internet units, students and teachers are gaining access to digital tools for education. The program includes structured digital literacy training for students, teachers, and parents. It also incorporates peer-led learning, and socio-emotional mentorship supported by partner organizations.
-<b>Outcomes (To Date):</b>
+<br><b>Outcomes (To Date):</b>
 <ul>
 <li>Digital literacy curriculum developed and deployed</li>
 

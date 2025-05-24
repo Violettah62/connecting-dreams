@@ -169,17 +169,22 @@ Timeline: November 26 – January 15, 2024
  Status: Completed
 This project engaged over twenty students enrolled in the program in planting trees at Holy Family Musembe Secondary School. The goal was to instill environmental stewardship while offering practical, hands-on learning. Over 500 trees were planted during the December  school break through January, incorporating nature-based education into the students’ learning experience.
 Outcomes:
-Educated students on tree care and environmental conservation
+<ul>
+<li> Educated students on tree care and environmental conservation </li>
 
+<li> Strengthened student collaboration and holiday engagement </li>
 
-Strengthened student collaboration and holiday engagement
-
-
-Enhanced the school’s environment and promoted community pride
-
+<li> Enhanced the school’s environment and promoted community pride </li>
+</ul>
 
 Future Engagement:
  Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.
+<img src="desktop/pictures/pic 1.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="desktop/pictures/pic 2.jpg" alt="tree planting"style="width: 45%; height: auto;"> <br>
+<img src="desktop/pictures/pic 3.jpg" alt="tree planting"style="width: 45%; height: auto;">
+<img src="desktop/pictures/pic 4.jpg" alt="tree planting"style="width: 45%; height: auto;">
+
+ <br>
 Project 2: Competency-Based Curriculum (CBC) Research and Advocacy
 Timeline: December 2024 – March 2025
  Location: Musembe Village and Lugari Sub-County Schools
@@ -200,6 +205,7 @@ Presented findings to local stakeholders and educational policymakers
 
 Future Engagement:
  The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.
+<br>
 Project 3: Bridging the Digital Divide
 Timeline: May 2025 – Ongoing
  Location: Musembe Secondary, Angayu High, and Mbajo Secondary Schools

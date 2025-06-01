@@ -43,7 +43,7 @@ def home():
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
            brighter futures together.<br>
-           <img src="{{ url_for('static', filename='pic6.jpg') }}" alt="engaging session" style="width: 50%;">
+           <img src="{{ url_for('static', filename='pic6.jpg') }}" alt="engaging session" style="width: 80%;">
            </p>
       </section>
       <footer>
@@ -86,42 +86,43 @@ def about():
       </nav>
       <section>
         <h2>Our Journey</h2>
-        <p>At Connecting Dreams Initiative, we believe that every student—regardless of background—deserves the opportunity to thrive in a digital, connected world.
+        <p>At Connecting Dreams Initiative, we believe that every student, regardless of background, deserves the opportunity to thrive in a digital, connected world.
 
 Rooted in the rural communities of Western Kenya, our mission is to transform education by providing holistic support to high school students through academic mentorship, emotional guidance, community engagement, and digital empowerment.
 
 
+<br>
+<b>What We Do</b><br>
+We work hand-in-hand with students, parents, teachers, and local leaders to bridge the educational gap in underserved areas.
+<br><b> Our approach includes:</b><br>
+<ol>
+<li><b>Personalized Mentorship:</b> Supporting students not just academically, but emotionally and socially, through a strong network of mentors and peer leaders.</li>
 
-What We Do
-We work hand-in-hand with students, parents, teachers, and local leaders to bridge the educational gap in underserved areas. Our approach includes:
+<li><b>Community-Driven Research:</b> Gathering local insights to create affordable, practical solutions for education challenges in rural Kenya.</li>
 
-Personalized Mentorship: Supporting students not just academically, but emotionally and socially, through a strong network of mentors and peer leaders.
+<li><b>Digital Literacy & Technology Integration:</b> Equipping students with essential tech skills, then empowering them to teach others—building a sustainable cycle of peer learning.</li>
 
-Community-Driven Research: Gathering local insights to create affordable, practical solutions for education challenges in rural Kenya.
-
-Digital Literacy & Technology Integration: Equipping students with essential tech skills, then empowering them to teach others—building a sustainable cycle of peer learning.
-
-
-
-Our Vision
+</ol>
+<br>
+<b>Our Vision</b>
 We’re building more than just schools—we’re building self-sustaining, tech-enabled learning ecosystems. We’re introducing students to the worlds of coding, data science, and robotics in the near future.
+<br>
+<b>Our future plans include:</b>
+<ul>
+<li>Student-led coding and innovation clubs</li>
 
-Our future plans include:
+<li>Solar-powered tech hubs for continuous access to learning tools</li>
 
-Student-led coding and innovation clubs
+<li>Annual innovation challenges to solve real-world community problems</li>
 
-Solar-powered tech hubs for continuous access to learning tools
-
-Annual innovation challenges to solve real-world community problems
-
-Mobile literacy units to train parents in digital skills and support at-home learning
-
-Why It Matters
+<li>Mobile literacy units to train parents in digital skills and support at-home learning</li>
+</ul>
+<b>Why It Matters</b>
 The digital divide remains one of the biggest barriers to education equity. In a world where opportunity is increasingly linked to technology, rural students can’t be left behind. That’s why we’re committed to providing tools, training, and mentorship to help them succeed—not just in school, but in life.
 
 We also aim to work closely with the Ministry of Education and local authorities to influence national curriculum reforms and advocate for inclusive, tech-forward education policies.
-
-Join Us
+<br>
+<b>Join Us</b>
 Whether you're a donor, educator, tech partner, or passionate volunteer—there’s a place for you in this movement.
 
 Together, we can turn dreams into tangible futures and ensure that hope, talent, and innovation are never limited by geography.</p>
@@ -184,6 +185,7 @@ def projects():
         </ul>
         <b>Future Engagement:</b>
         Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.<br>
+        <br>
         <img src="{{ url_for('static', filename='pic1.jpg') }}" alt="Tree planting" style="width: 45%;">
         <img src="{{ url_for('static', filename='pic2.jpg') }}" alt="Tree planting" style="width: 45%;"><br>
         <img src="{{ url_for('static', filename='pic3.jpg') }}" alt="Tree planting" style="width: 45%;">

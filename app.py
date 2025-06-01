@@ -43,7 +43,7 @@ def home():
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
            brighter futures together.<br>
-           <img src="{{ url_for('static', filename='pic6.jpg') }}" alt="engaging session" style="width: 80%;">
+           <img src="{{ url_for('static', filename='pic6.jpg') }}" alt="engaging session" style="width: 90%;">
            </p>
       </section>
       <footer>
@@ -91,10 +91,10 @@ def about():
 Rooted in the rural communities of Western Kenya, our mission is to transform education by providing holistic support to high school students through academic mentorship, emotional guidance, community engagement, and digital empowerment.
 
 
-<br>
+<br><br>
 <b>What We Do</b><br>
 We work hand-in-hand with students, parents, teachers, and local leaders to bridge the educational gap in underserved areas.
-<br><b> Our approach includes:</b><br>
+<br><br><b> Our approach includes:</b><br>
 <ol>
 <li><b>Personalized Mentorship:</b> Supporting students not just academically, but emotionally and socially, through a strong network of mentors and peer leaders.</li>
 
@@ -104,9 +104,9 @@ We work hand-in-hand with students, parents, teachers, and local leaders to brid
 
 </ol>
 <br>
-<b>Our Vision</b>
+<b>Our Vision</b><br>
 We’re building more than just schools—we’re building self-sustaining, tech-enabled learning ecosystems. We’re introducing students to the worlds of coding, data science, and robotics in the near future.
-<br>
+<br><br>
 <b>Our future plans include:</b>
 <ul>
 <li>Student-led coding and innovation clubs</li>
@@ -116,13 +116,13 @@ We’re building more than just schools—we’re building self-sustaining, tech
 <li>Annual innovation challenges to solve real-world community problems</li>
 
 <li>Mobile literacy units to train parents in digital skills and support at-home learning</li>
-</ul>
-<b>Why It Matters</b>
+</ul><br>
+<b>Why It Matters</b><br>
 The digital divide remains one of the biggest barriers to education equity. In a world where opportunity is increasingly linked to technology, rural students can’t be left behind. That’s why we’re committed to providing tools, training, and mentorship to help them succeed—not just in school, but in life.
 
 We also aim to work closely with the Ministry of Education and local authorities to influence national curriculum reforms and advocate for inclusive, tech-forward education policies.
 <br>
-<b>Join Us</b>
+<b>Join Us</b><br>
 Whether you're a donor, educator, tech partner, or passionate volunteer—there’s a place for you in this movement.
 
 Together, we can turn dreams into tangible futures and ensure that hope, talent, and innovation are never limited by geography.</p>

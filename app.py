@@ -26,6 +26,8 @@ def home():
                    box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         footer { text-align: center; padding: 10px; background: #00008b; color: white; }
       </style>
+      <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Logo" style="height: 60px; margin-right: 15px;">
+  <div>
     </head>
     <body>
       <header>

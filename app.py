@@ -29,7 +29,7 @@ def home():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:90px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
   <h1>Connecting Dreams Initiative</h1>
   <p>Every Dream Can Thrive</p>
 </header>
@@ -45,7 +45,10 @@ def home():
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
            brighter futures together.<br>
-           <img src="{{ url_for('static', filename='logo.jpg') }}" alt="our logo" style="width: 80%;">
+           <div style="text-align:center;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Tree planting" style="width: 45%;">
+</div>
+
            </p>
       </section>
       <footer>
@@ -78,7 +81,7 @@ def about():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:90px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
   <h1>About Connecting Dreams Initiative</h1>
 </header>
 
@@ -166,7 +169,7 @@ def projects():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:90px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
   <h1>Our Projects</h1>
 </header>
 
@@ -259,7 +262,7 @@ def contact():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:90px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
   <h1>Contact Us</h1>
 </header>
       <nav>

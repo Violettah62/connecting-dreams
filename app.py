@@ -42,8 +42,7 @@ def home():
         <h2>Welcome</h2>
         <p>Our mission is to empower rural students in Kenya through comprehensive digital literacy,
            mentorship, and technology-driven learning by leveraging research and feasible evidence based intervention. Join us as we transform rural education and build
-           brighter futures together.<br>
-           <img src="{{ url_for('static', filename='pic6.jpg') }}" alt="engaging session" style="width: 90%;">
+           brighter futures together.
            </p>
       </section>
       <footer>

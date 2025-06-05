@@ -26,14 +26,14 @@ def home():
                    box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         footer { text-align: center; padding: 10px; background: #00008b; color: white; }
       </style>
-      <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Logo" style="height: 60px; margin-right: 15px;">
-  <div>
     </head>
     <body>
       <header>
-        <h1>Connecting Dreams Initiative</h1>
-        <p>Every Dream Can Thrive</p>
-      </header>
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:60px; float:left; margin-right:15px;">
+  <h1>Connecting Dreams Initiative</h1>
+  <p>Every Dream Can Thrive</p>
+</header>
+
       <nav>
         <a href="/">Home</a> |
         <a href="/about">About</a> |
@@ -77,8 +77,10 @@ def about():
     </head>
     <body>
       <header>
-        <h1>About Connecting Dreams Initiative</h1>
-      </header>
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:60px; float:left; margin-right:15px;">
+  <h1>About Connecting Dreams Initiative</h1>
+</header>
+
       <nav>
         <a href="/">Home</a> |
         <a href="/about">About</a> |
@@ -163,8 +165,10 @@ def projects():
     </head>
     <body>
       <header>
-        <h1>Our Projects</h1>
-      </header>
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:60px; float:left; margin-right:15px;">
+  <h1>Our Projects</h1>
+</header>
+
       <nav>
         <a href="/">Home</a> |
         <a href="/about">About</a> |
@@ -254,8 +258,10 @@ def contact():
     </head>
     <body>
       <header>
-        <h1>Contact Us</h1>
-      </header>
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:60px; float:left; margin-right:15px;">
+  <h1>Contact Us</h1>
+</header>
+
       <nav>
         <a href="/">Home</a> |
         <a href="/about">About</a> |

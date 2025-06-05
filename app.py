@@ -81,7 +81,7 @@ def about():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:100px; float:left; margin-right:15px;">
   <h1>About Connecting Dreams Initiative</h1>
 </header>
 
@@ -169,7 +169,7 @@ def projects():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:100px; float:left; margin-right:15px;">
   <h1>Our Projects</h1>
 </header>
 
@@ -262,7 +262,7 @@ def contact():
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:120px; float:left; margin-right:15px;">
+  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:100px; float:left; margin-right:15px;">
   <h1>Contact Us</h1>
 </header>
       <nav>

@@ -147,8 +147,7 @@ Together, we can turn dreams into tangible futures and ensure that hope, talent,
 # Replace this comment with your full definitions for about(), contact(), and especially projects()
 
 # Inside your project function — ensure all image srcs are like:
-# <img src="{{ url_for('static', filename='pic1.jpg') }}">
-
+# <img src="{{ url_for('static', filename='pic1.jpg') 
 @app.route("/projects")
 def projects():
     html = """
@@ -159,19 +158,22 @@ def projects():
       <title>Projects - Connecting Dreams Initiative</title>
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
-        header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; text-align: center; }
+        header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; }
         nav { text-align: center; margin: 20px; }
         nav a { margin: 0 15px; text-decoration: none; color: #00008b; font-size: 18px; }
         section { margin: 20px; padding: 20px; background: white; border-radius: 8px;
-                   box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                  box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         footer { text-align: center; padding: 10px; background: #00008b; color: white; }
+        .logo { float: left; height: 80px; margin-right: 20px; }
+        header h1 { margin: 0; padding-top: 15px; }
+        img.project-img { width: 45%; display: inline-block; margin: 10px auto; }
       </style>
     </head>
     <body>
       <header>
-  <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:100px; float:left; margin-right:15px;">
-  <h1>Our Projects</h1>
-</header>
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" class="logo">
+        <h1>Our Projects</h1>
+      </header>
 
       <nav>
         <a href="/">Home</a> |
@@ -179,8 +181,10 @@ def projects():
         <a href="/projects">Projects</a> |
         <a href="/contact">Contact</a>
       </nav>
+
       <section>
         <h2>All Projects</h2>
+
         <p><b>Project 1: Tree Planting and Environmental Education</b><br>
         <b>Timeline:</b> November 26 – January 15, 2024 <br>
         <b>Location:</b> Holy Family Musembe Secondary School <br>
@@ -188,17 +192,16 @@ def projects():
         This project engaged over twenty students enrolled in the program in planting trees at Holy Family Musembe Secondary School. The goal was to instill environmental stewardship while offering practical, hands-on learning. Over 500 trees were planted during the December school break through January, incorporating nature-based education into the students’ learning experience.
         <br><b>Outcomes:</b>
         <ul>
-          <li> Educated students on tree care and environmental conservation </li>
-          <li> Strengthened student collaboration and holiday engagement </li>
-          <li> Enhanced the school’s environment and promoted community pride </li>
+          <li>Educated students on tree care and environmental conservation</li>
+          <li>Strengthened student collaboration and holiday engagement</li>
+          <li>Enhanced the school’s environment and promoted community pride</li>
         </ul>
         <b>Future Engagement:</b>
-        Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.<br>
-        <br>
-        <img src="{{ url_for('static', filename='pic1.jpg') }}" alt="Tree planting" style="width: 45%;">
-        <img src="{{ url_for('static', filename='pic2.jpg') }}" alt="Tree planting" style="width: 45%;"><br>
-        <img src="{{ url_for('static', filename='pic3.jpg') }}" alt="Tree planting" style="width: 45%;">
-        <img src="{{ url_for('static', filename='pic4.jpg') }}" alt="Tree planting" style="width: 45%;"><br><br><br>
+        Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.<br><br>
+        <img src="{{ url_for('static', filename='pic1.jpg') }}" alt="Tree planting" class="project-img">
+        <img src="{{ url_for('static', filename='pic2.jpg') }}" alt="Tree planting" class="project-img">
+        <img src="{{ url_for('static', filename='pic3.jpg') }}" alt="Tree planting" class="project-img">
+        <img src="{{ url_for('static', filename='pic4.jpg') }}" alt="Tree planting" class="project-img"><br><br>
 
         <b>Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>
         <b>Timeline:</b> December 2024 – March 2025<br>
@@ -213,7 +216,7 @@ def projects():
           <li>Presented findings to local stakeholders and educational policymakers</li>
         </ul>
         <b>Future Engagement:</b>
-        The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.<br><br><br>
+        The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.<br><br>
 
         <b>Project 3: Bridging the Digital Divide</b><br>
         <b>Timeline:</b> May 2025 – Ongoing<br>
@@ -236,6 +239,7 @@ def projects():
         </ul>
         </p>
       </section>
+
       <footer>
         <p>&copy; 2025 Connecting Dreams Initiative</p>
       </footer>
@@ -243,6 +247,8 @@ def projects():
     </html>
     """
     return render_template_string(html)
+
+
 @app.route("/contact")
 def contact():
     html = """

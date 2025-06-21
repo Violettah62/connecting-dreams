@@ -158,52 +158,55 @@ def projects():
       <title>Projects - Connecting Dreams Initiative</title>
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
-        header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; }
+        header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; text-align: center; }
         nav { text-align: center; margin: 20px; }
         nav a { margin: 0 15px; text-decoration: none; color: #00008b; font-size: 18px; }
         section { margin: 20px; padding: 20px; background: white; border-radius: 8px;
-                  box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                   box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         footer { text-align: center; padding: 10px; background: #00008b; color: white; }
-        .logo { float: left; height: 80px; margin-right: 20px; }
-        header h1 { margin: 0; padding-top: 15px; }
-        img.project-img { width: 45%; display: inline-block; margin: 10px auto; }
+        ul li a { color: #00008b; text-decoration: none; }
+        ul li a:hover { text-decoration: underline; }
       </style>
     </head>
     <body>
       <header>
-        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" class="logo">
         <h1>Our Projects</h1>
       </header>
-
       <nav>
         <a href="/">Home</a> |
         <a href="/about">About</a> |
         <a href="/projects">Projects</a> |
         <a href="/contact">Contact</a>
       </nav>
-
       <section>
         <h2>All Projects</h2>
+        <ul>
+          <li><a href="#project1">Project 1: Tree Planting and Environmental Education</a></li>
+          <li><a href="#project2">Project 2: CBC Research and Advocacy</a></li>
+          <li><a href="#project3">Project 3: Bridging the Digital Divide</a></li>
+        </ul>
+        <br>
 
-        <p><b>Project 1: Tree Planting and Environmental Education</b><br>
+        <p><b id="project1">Project 1: Tree Planting and Environmental Education</b><br>
         <b>Timeline:</b> November 26 – January 15, 2024 <br>
         <b>Location:</b> Holy Family Musembe Secondary School <br>
         <b>Status:</b> Completed <br>
         This project engaged over twenty students enrolled in the program in planting trees at Holy Family Musembe Secondary School. The goal was to instill environmental stewardship while offering practical, hands-on learning. Over 500 trees were planted during the December school break through January, incorporating nature-based education into the students’ learning experience.
         <br><b>Outcomes:</b>
         <ul>
-          <li>Educated students on tree care and environmental conservation</li>
-          <li>Strengthened student collaboration and holiday engagement</li>
-          <li>Enhanced the school’s environment and promoted community pride</li>
+          <li> Educated students on tree care and environmental conservation </li>
+          <li> Strengthened student collaboration and holiday engagement </li>
+          <li> Enhanced the school’s environment and promoted community pride </li>
         </ul>
         <b>Future Engagement:</b>
-        Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.<br><br>
-        <img src="{{ url_for('static', filename='pic1.jpg') }}" alt="Tree planting" class="project-img">
-        <img src="{{ url_for('static', filename='pic2.jpg') }}" alt="Tree planting" class="project-img">
-        <img src="{{ url_for('static', filename='pic3.jpg') }}" alt="Tree planting" class="project-img">
-        <img src="{{ url_for('static', filename='pic4.jpg') }}" alt="Tree planting" class="project-img"><br><br>
+        Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.<br>
+        <br>
+        <img src="{{ url_for('static', filename='pic1.jpg') }}" alt="Tree planting" style="width: 45%; display: block; margin: 10px auto;">
+        <img src="{{ url_for('static', filename='pic2.jpg') }}" alt="Tree planting" style="width: 45%; display: block; margin: 10px auto;"><br>
+        <img src="{{ url_for('static', filename='pic3.jpg') }}" alt="Tree planting" style="width: 45%; display: block; margin: 10px auto;">
+        <img src="{{ url_for('static', filename='pic4.jpg') }}" alt="Tree planting" style="width: 45%; display: block; margin: 10px auto;"><br><br><br>
 
-        <b>Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>
+        <b id="project2">Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</b><br>
         <b>Timeline:</b> December 2024 – March 2025<br>
         <b>Location:</b> Musembe Village and Lugari Sub-County Schools<br>
         <b>Status:</b> Completed<br>
@@ -216,9 +219,9 @@ def projects():
           <li>Presented findings to local stakeholders and educational policymakers</li>
         </ul>
         <b>Future Engagement:</b>
-        The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.<br><br>
+        The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.<br><br><br>
 
-        <b>Project 3: Bridging the Digital Divide</b><br>
+        <b id="project3">Project 3: Bridging the Digital Divide</b><br>
         <b>Timeline:</b> May 2025 – Ongoing<br>
         <b>Location:</b> Musembe Secondary, Angayu High, and Mbajo Secondary Schools<br>
         <b>Status:</b> In Progress <br>
@@ -239,7 +242,6 @@ def projects():
         </ul>
         </p>
       </section>
-
       <footer>
         <p>&copy; 2025 Connecting Dreams Initiative</p>
       </footer>

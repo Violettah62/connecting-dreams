@@ -179,7 +179,7 @@ def projects():
     </head>
     <body>
       <header>
-        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" class="logo">
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" class="logo"style="height:100px; float:left; margin-right:15px;>
         <h1>Our Projects</h1>
       </header>
 
@@ -213,28 +213,42 @@ def projects():
 
         <p class="project-title" onclick="toggleProject('proj2')">Project 2: CBC Research and Advocacy</p>
         <div id="proj2" class="project-details">
-          <p><b>Timeline:</b> Dec 2024 – March 2025 <br>
-          <b>Location:</b> Musembe Village and Lugari Sub-County Schools <br>
-          <b>Status:</b> Completed</p>
-          <p>Researched CBC challenges in rural areas using comparative education frameworks and proposed improvements.</p>
-          <ul>
-            <li>Identified barriers to CBC</li>
-            <li>Shared findings with policymakers</li>
-            <li>Suggested equity-focused reforms</li>
-          </ul>
+          <b>Timeline:</b> December 2024 – March 2025<br>
+        <b>Location:</b> Musembe Village and Lugari Sub-County Schools<br>
+        <b>Status:</b> Completed<br>
+        This study investigated the challenges faced by low-income families, teachers, and students under Kenya’s CBC. Using a comparative framework with education systems in Finland and the U.S., the research examined the real-world impact of CBC on rural communities and developed practical, community-informed policy recommendations.
+        <br><b>Outcomes:</b>
+        <ul>
+          <li>Highlighted socio-economic, infrastructural, and administrative barriers to CBC implementation</li>
+          <li>Documented adaptive strategies by families and teachers</li>
+          <li>Provided actionable recommendations on equity, funding, teacher training, and parental engagement</li>
+          <li>Presented findings to local stakeholders and educational policymakers</li>
+        </ul>
+        <b>Future Engagement:</b>
+        The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.<br><br><br>
+          
         </div>
 
         <p class="project-title" onclick="toggleProject('proj3')">Project 3: Bridging the Digital Divide</p>
         <div id="proj3" class="project-details">
-          <p><b>Timeline:</b> May 2025 – Ongoing <br>
-          <b>Location:</b> Musembe Secondary, Angayu High, Mbajo Secondary <br>
-          <b>Status:</b> In Progress</p>
-          <p>Installing internet and training rural schools in digital skills and mentoring models.</p>
-          <ul>
-            <li>Deployed 20 desktops and Starlink</li>
-            <li>Training students and teachers</li>
-            <li>Collaborating with national orgs</li>
-          </ul>
+          <b>Timeline:</b> May 2025 – Ongoing<br>
+        <b>Location:</b> Musembe Secondary, Angayu High, and Mbajo Secondary Schools<br>
+        <b>Status:</b> In Progress <br>
+        This ongoing project aims to address the critical lack of digital resources in rural schools. Through the deployment of 20 desktop computers and 3 Starlink satellite internet units, students and teachers are gaining access to digital tools for education. The program includes structured digital literacy training for students, teachers, and parents. It also incorporates peer-led learning, and socio-emotional mentorship supported by partner organizations.
+        <br><b>Outcomes (To Date):</b>
+        <ul>
+          <li>Digital literacy curriculum developed and deployed</li>
+          <li>Over 40 peer mentors trained across three schools</li>
+          <li>Starlink satellite internet installed, improving online access</li>
+          <li>Collaborations with KenSAP and Shamiri Institute.</li>
+        </ul>
+        <b>Future Engagement:</b>
+        <ul>
+          <li>Introduction of coding and innovation clubs</li>
+          <li>Integration of gamified learning and AI-based educational tools</li>
+          <li>Launch of mobile digital literacy units for parents</li>
+          <li>Long-term policy collaboration with the Ministry of Education for national scaling.</li>
+        </ul>
         </div>
       </section>
 

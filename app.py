@@ -159,27 +159,31 @@ def projects():
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
         header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; }
+        .logo { float: left; height: 80px; margin-right: 20px; }
+        header h1 { margin: 0; padding-top: 15px; }
         nav { text-align: center; margin: 20px; }
         nav a { margin: 0 15px; text-decoration: none; color: #00008b; font-size: 18px; }
         section { margin: 20px; padding: 20px; background: white; border-radius: 8px;
                   box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         footer { text-align: center; padding: 10px; background: #00008b; color: white; }
-        .logo { float: left; height: 80px; margin-right: 20px; }
-        header h1 { margin: 0; padding-top: 15px; }
-        img.project-img { width: 45%; display: inline-block; margin: 10px auto; }
+        .project-title { color: #00008b; cursor: pointer; font-weight: bold; font-size: 20px; margin-top: 20px; }
         .project-details { display: none; margin-top: 15px; }
-        .project-title { color: #00008b; cursor: pointer; font-weight: bold; }
+        img.project-img { width: 45%; display: inline-block; margin: 10px auto; }
       </style>
       <script>
         function toggleProject(id) {
-          var content = document.getElementById(id);
-          content.style.display = content.style.display === "none" ? "block" : "none";
+          var el = document.getElementById(id);
+          if (el.style.display === "block") {
+            el.style.display = "none";
+          } else {
+            el.style.display = "block";
+          }
         }
       </script>
     </head>
     <body>
       <header>
-        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" class="logo"style="height:100px; float:left; margin-right:15px;>
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" class="logo">
         <h1>Our Projects</h1>
       </header>
 
@@ -193,62 +197,63 @@ def projects():
       <section>
         <h2>All Projects</h2>
 
-        <p class="project-title" onclick="toggleProject('proj1')">Project 1: Tree Planting and Environmental Education</p>
+        <div class="project-title" onclick="toggleProject('proj1')">Project 1: Tree Planting and Environmental Education</div>
         <div id="proj1" class="project-details">
           <p><b>Timeline:</b> November 26 – January 15, 2024 <br>
           <b>Location:</b> Holy Family Musembe Secondary School <br>
           <b>Status:</b> Completed</p>
-          <p>This project engaged over twenty students in planting trees, instilling environmental stewardship and hands-on learning. Over 500 trees were planted.</p>
+          <p>This project engaged over twenty students enrolled in the program in planting trees at Holy Family Musembe Secondary School. The goal was to instill environmental stewardship while offering practical, hands-on learning. Over 500 trees were planted during the December school break through January, incorporating nature-based education into the students’ learning experience.</p>
+          <b>Outcomes:</b>
           <ul>
-            <li>Educated students on tree care</li>
-            <li>Encouraged collaboration</li>
-            <li>Improved the school environment</li>
+            <li>Educated students on tree care and environmental conservation</li>
+            <li>Strengthened student collaboration and holiday engagement</li>
+            <li>Enhanced the school’s environment and promoted community pride</li>
           </ul>
-          <p><b>Future:</b> Replication in other schools with workshops.</p>
+          <b>Future Engagement:</b>
+          <p>Plans are underway to replicate this model in neighboring schools and to integrate it with climate education workshops, further promoting sustainability.</p>
           <img src="{{ url_for('static', filename='pic1.jpg') }}" alt="Tree planting" class="project-img">
           <img src="{{ url_for('static', filename='pic2.jpg') }}" alt="Tree planting" class="project-img">
           <img src="{{ url_for('static', filename='pic3.jpg') }}" alt="Tree planting" class="project-img">
           <img src="{{ url_for('static', filename='pic4.jpg') }}" alt="Tree planting" class="project-img">
         </div>
 
-        <p class="project-title" onclick="toggleProject('proj2')">Project 2: CBC Research and Advocacy</p>
+        <div class="project-title" onclick="toggleProject('proj2')">Project 2: Competency-Based Curriculum (CBC) Research and Advocacy</div>
         <div id="proj2" class="project-details">
-          <b>Timeline:</b> December 2024 – March 2025<br>
-        <b>Location:</b> Musembe Village and Lugari Sub-County Schools<br>
-        <b>Status:</b> Completed<br>
-        This study investigated the challenges faced by low-income families, teachers, and students under Kenya’s CBC. Using a comparative framework with education systems in Finland and the U.S., the research examined the real-world impact of CBC on rural communities and developed practical, community-informed policy recommendations.
-        <br><b>Outcomes:</b>
-        <ul>
-          <li>Highlighted socio-economic, infrastructural, and administrative barriers to CBC implementation</li>
-          <li>Documented adaptive strategies by families and teachers</li>
-          <li>Provided actionable recommendations on equity, funding, teacher training, and parental engagement</li>
-          <li>Presented findings to local stakeholders and educational policymakers</li>
-        </ul>
-        <b>Future Engagement:</b>
-        The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.<br><br><br>
-          
+          <p><b>Timeline:</b> December 2024 – March 2025<br>
+          <b>Location:</b> Musembe Village and Lugari Sub-County Schools<br>
+          <b>Status:</b> Completed</p>
+          <p>This study investigated the challenges faced by low-income families, teachers, and students under Kenya’s CBC. Using a comparative framework with education systems in Finland and the U.S., the research examined the real-world impact of CBC on rural communities and developed practical, community-informed policy recommendations.</p>
+          <b>Outcomes:</b>
+          <ul>
+            <li>Highlighted socio-economic, infrastructural, and administrative barriers to CBC implementation</li>
+            <li>Documented adaptive strategies by families and teachers</li>
+            <li>Provided actionable recommendations on equity, funding, teacher training, and parental engagement</li>
+            <li>Presented findings to local stakeholders and educational policymakers</li>
+          </ul>
+          <b>Future Engagement:</b>
+          <p>The research will inform advocacy efforts to influence CBC implementation policies, guide new mentorship and infrastructure programs, and support the case for inclusive education reform in partnership with county governments and national education bodies.</p>
         </div>
 
-        <p class="project-title" onclick="toggleProject('proj3')">Project 3: Bridging the Digital Divide</p>
+        <div class="project-title" onclick="toggleProject('proj3')">Project 3: Bridging the Digital Divide</div>
         <div id="proj3" class="project-details">
-          <b>Timeline:</b> May 2025 – Ongoing<br>
-        <b>Location:</b> Musembe Secondary, Angayu High, and Mbajo Secondary Schools<br>
-        <b>Status:</b> In Progress <br>
-        This ongoing project aims to address the critical lack of digital resources in rural schools. Through the deployment of 20 desktop computers and 3 Starlink satellite internet units, students and teachers are gaining access to digital tools for education. The program includes structured digital literacy training for students, teachers, and parents. It also incorporates peer-led learning, and socio-emotional mentorship supported by partner organizations.
-        <br><b>Outcomes (To Date):</b>
-        <ul>
-          <li>Digital literacy curriculum developed and deployed</li>
-          <li>Over 40 peer mentors trained across three schools</li>
-          <li>Starlink satellite internet installed, improving online access</li>
-          <li>Collaborations with KenSAP and Shamiri Institute.</li>
-        </ul>
-        <b>Future Engagement:</b>
-        <ul>
-          <li>Introduction of coding and innovation clubs</li>
-          <li>Integration of gamified learning and AI-based educational tools</li>
-          <li>Launch of mobile digital literacy units for parents</li>
-          <li>Long-term policy collaboration with the Ministry of Education for national scaling.</li>
-        </ul>
+          <p><b>Timeline:</b> May 2025 – Ongoing<br>
+          <b>Location:</b> Musembe Secondary, Angayu High, and Mbajo Secondary Schools<br>
+          <b>Status:</b> In Progress</p>
+          <p>This ongoing project aims to address the critical lack of digital resources in rural schools. Through the deployment of 20 desktop computers and 3 Starlink satellite internet units, students and teachers are gaining access to digital tools for education. The program includes structured digital literacy training for students, teachers, and parents. It also incorporates peer-led learning, and socio-emotional mentorship supported by partner organizations.</p>
+          <b>Outcomes (To Date):</b>
+          <ul>
+            <li>Digital literacy curriculum developed and deployed</li>
+            <li>Over 40 peer mentors trained across three schools</li>
+            <li>Starlink satellite internet installed, improving online access</li>
+            <li>Collaborations with KenSAP and Shamiri Institute.</li>
+          </ul>
+          <b>Future Engagement:</b>
+          <ul>
+            <li>Introduction of coding and innovation clubs</li>
+            <li>Integration of gamified learning and AI-based educational tools</li>
+            <li>Launch of mobile digital literacy units for parents</li>
+            <li>Long-term policy collaboration with the Ministry of Education for national scaling</li>
+          </ul>
         </div>
       </section>
 
@@ -259,6 +264,7 @@ def projects():
     </html>
     """
     return render_template_string(html)
+
 
 
 @app.route("/contact")

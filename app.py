@@ -13,10 +13,10 @@ def home():
     <head>
       <meta charset="UTF-8">
       <meta name="description" content="Empowering rural students in Kenya through digital literacy, mentorship, and technology through research and verified data.">
-      <meta name="keywords" content="Connecting Dreams Initiative, Kenya, digital literacy, student empowerment">
-      <meta name="author" content="Connecting Dreams Initiative">
+      <meta name="keywords" content="Utando Kenya - Making Dreams Initiative, Kenya, digital literacy, student empowerment">
+      <meta name="author" content="Utando Kenya - Making Dreams Initiative">
       <meta name="google-site-verification" content="LBIuqR4BpR4-ddCXsmny00Hrrmg9jWSqd4gL_Bpbl_A" />
-      <title>Connecting Dreams Initiative</title>
+      <title>Utando Kenya - Making Dreams Initiative</title>
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
         header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; text-align: center; }
@@ -52,7 +52,7 @@ def home():
            </p>
       </section>
       <footer>
-        <p>&copy; 2025 Connecting Dreams Initiative</p>
+        <p>&copy; 2025 Utando Kenya - Making Dreams Initiative</p>
       </footer>
     </body>
     </html>
@@ -68,7 +68,7 @@ def about():
     <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <title>About - Connecting Dreams Initiative</title>
+      <title>About - Utando Kenya - Making Dreams Initiative</title>
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
         header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; text-align: center; }
@@ -82,7 +82,7 @@ def about():
     <body>
       <header>
   <img src="{{ url_for('static', filename='logo.jpg') }}" alt="CDI Logo" style="height:100px; float:left; margin-right:15px;">
-  <h1>About Connecting Dreams Initiative</h1>
+  <h1>About Utando Kenya - Making Dreams Initiative</h1>
 </header>
 
       <nav>
@@ -93,7 +93,7 @@ def about():
       </nav>
       <section>
         <h2>Our Journey</h2>
-        <p>At Connecting Dreams Initiative, we believe that every student, regardless of background, deserves the opportunity to thrive in a digital, connected world.
+        <p>At Utando Kenya - Making Dreams Initiative, we believe that every student, regardless of background, deserves the opportunity to thrive in a digital, connected world.
 
 Rooted in the rural communities of Western Kenya, our mission is to transform education by providing holistic support to high school students through academic mentorship, emotional guidance, community engagement, and digital empowerment.
 
@@ -135,7 +135,7 @@ Whether you're a donor, educator, tech partner, or passionate volunteerâ€”thereâ
 Together, we can turn dreams into tangible futures and ensure that hope, talent, and innovation are never limited by geography.</p>
       </section>
       <footer>
-        <p>&copy; 2025 Connecting Dreams Initiative</p>
+        <p>&copy; 2025 Utando Kenya - Making Dreams Initiative</p>
       </footer>
     </body>
     </html>
@@ -155,7 +155,7 @@ def projects():
     <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <title>Projects - Connecting Dreams Initiative</title>
+      <title>Projects - Utando Kenya - Making Dreams Initiative</title>
       <style>
         body { font-family: "Times New Roman", serif; margin: 0; padding: 0; background: #f0f8ff; }
         header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; }
@@ -258,7 +258,7 @@ def projects():
       </section>
 
       <footer>
-        <p>&copy; 2025 Connecting Dreams Initiative</p>
+        <p>&copy; 2025 Utando Kenya - Making Dreams Initiative</p>
       </footer>
     </body>
     </html>
@@ -274,7 +274,7 @@ def contact():
     <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <title>Contact Us - Connecting Dreams Initiative</title>
+      <title>Contact Us - Utando Kenya - Making Dreams Initiative</title>
       <style>
         body { font-family: "Times New Roman", serif; background: #f0f8ff; margin: 0; padding: 0; }
         header { background: linear-gradient(to bottom, #add8e6, #00008b); color: white; padding: 20px; text-align: center; }
@@ -301,7 +301,7 @@ def contact():
         <p><strong>WhatsApp:</strong> <a href="https://wa.me/19099648648" target="_blank">+1 (909) 964-8648</a></p>
       </section>
       <footer>
-        <p>&copy; 2025 Connecting Dreams Initiative</p>
+        <p>&copy; 2025 Utando Kenya - Making Dreams Initiative</p>
       </footer>
     </body>
     </html>
